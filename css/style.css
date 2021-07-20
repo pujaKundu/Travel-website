@@ -2,3 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+main {
+    margin-top: 20%;
+}
+
+.background-decor {
+    background-image: url("assets/bg-decor-1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+/* categories section styles */
+
+.category-card:hover {
+    box-shadow: -2px 20px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+
+/* Destination section styles */
+
+.img-border {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
