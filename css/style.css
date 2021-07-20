@@ -35,3 +35,18 @@ main {
     width: 204px;
     height: 130px;
 }
+
+
+/* Contact styles */
+
+.contact-section {
+    background-color: #DFD7F9;
+    border-radius: 10px;
+}
+
+.input-field {
+    padding: 0.7% 2%;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 8px;
+}
