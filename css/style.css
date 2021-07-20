@@ -7,7 +7,7 @@ main {
 }
 
 .background-decor {
-    background-image: url("assets/bg-decor-1.png");
+    background-image: url("../assets/bg-decor-1.png");
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -26,4 +26,12 @@ main {
 .img-border {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+}
+
+
+/* /brands/ */
+
+.brand-card {
+    width: 204px;
+    height: 130px;
 }
