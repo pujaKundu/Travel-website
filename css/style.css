@@ -2,14 +2,72 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Utilities */
+
+body {
+    background-image: url(../assets/Decore.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family: 'Poppins', sans-serif;
+}
+
 main {
     margin-top: 20%;
+}
+
+.section-margin {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .background-decor {
     background-image: url("../assets/bg-decor-1.png");
     background-repeat: no-repeat;
     background-position: right top;
+}
+
+.text-color {
+    color: #DF6951;
+    font-weight: 700;
+}
+
+.sub-title {
+    color: #5E6282;
+    font-weight: 700;
+}
+
+.title {
+    font-family: "Volkhov", sans-serif;
+}
+
+
+/* hero section styles */
+
+.hero-text {
+    font-family: Volkhov;
+    font-weight: 700;
+    font-size: 68px;
+}
+
+.hero-text span {
+    background-image: url(../assets/h2-underline.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: bottom;
+    width: 70%;
+    /* padding-right: 10%; */
+    /* background-size: contain; */
+}
+
+.btn-color {
+    background-color: #F1A501;
+    color: #fff;
+}
+
+.fa-play-circle {
+    color: #DF6951;
+    font-size: 32px;
 }
 
 
@@ -42,6 +100,11 @@ main {
 .contact-section {
     background-color: #DFD7F9;
     border-radius: 10px;
+    background-image: url(../assets/subscribe-decor-left.png), url(../assets/subscribe-decor-right.png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #5E6282;
 }
 
 .input-field {
@@ -49,4 +112,27 @@ main {
     border: 1px solid lightgray;
     color: lightgray;
     border-radius: 8px;
+}
+
+.btn-info {
+    background-color: #DF6951;
+    color: #fff;
+}
+
+
+/* footer */
+
+.footer-items a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-items h4 {
+    margin-top: 5px;
+}
+
+.icons a {
+    font-size: 2em;
+    margin-right: 8px;
+    color: gray;
 }
